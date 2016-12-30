@@ -14,6 +14,6 @@ export const routing = RouterModule.forRoot([
   {path:'about', component: AboutComponent},
   {path:'home', component: SearchComponent},
   {path:'contact', component: ContactComponent},
-  {path:'**', component: AboutComponent},
+   {path:'**', component: SearchComponent},
 ]);
 
