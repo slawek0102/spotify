@@ -7,7 +7,11 @@
 <form action="">
 
   <div class="form-group">
-    <input type="text" class="form-control" placeholder="Search" [(ngModel)]="searchStr" name="searchStr" (keyup)="searchMusic($event)">
+    <input type="text" class="form-control"
+           placeholder="Search"
+           [(ngModel)]="searchStr"
+           name="searchStr"
+           (keyup)="searchMusic()"
+    >
   </div>
-
 </form>
